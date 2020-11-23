@@ -3,6 +3,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg3">
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:background="#33EEEEEE"
+        android:id="@+id/local_music_toplayout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="在线搜索:"
+            android:textSize="26sp"
+            android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/local_music_topsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://music.163.com"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+    </RelativeLayout>
    <RelativeLayout
        android:layout_width="match_parent"
        android:layout_height="70dp"
