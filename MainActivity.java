@@ -78,11 +78,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                设置新的播放路径
         try {
             mediaPlayer.setDataSource(musicBean.getPath());
-            String albumArt = musicBean.getAlbumArt();
-            Log.i("lsh123", "playMusicInMusicBean: albumpath=="+albumArt);
-            Bitmap bm = BitmapFactory.decodeFile(albumArt);
-            Log.i("lsh123", "playMusicInMusicBean: bm=="+bm);
-            albumIv.setImageBitmap(bm);
             playMusic();
 
         } catch (IOException e) {
