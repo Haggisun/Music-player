@@ -95,6 +95,7 @@
         android:id="@+id/local_music_rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/local_music_toplayout"
         android:layout_above="@id/local_music_bottomlayout">
 
     </android.support.v7.widget.RecyclerView>
